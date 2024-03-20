@@ -1,0 +1,118 @@
+.home__bg{
+    background-image: url("C:/Users/RAKESH YADAV/Desktop/project/portfolio/src/img/bg.jpeg");   
+   background-color: #010101;
+   background-position: 50%;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ .li.nav__items{
+     font-size: 18px;
+     padding-bottom: 15px;
+ }
+ .home__content{
+     padding: 125px 0px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ span.index-module_type__E-SaG {
+     font-size: 54px !important;
+     line-height: 54px !important;
+     font-weight: 800 !important;
+     font-family: Montserrart,sans-serif !important;
+ }
+ h1.home__text{
+     font-size: 18px;
+     font-weight: 400;
+     letter-spacing: 3px;
+     color: rgba(198,201,216,75)!important;
+ }
+ h2.home__text{
+     font-size: 54px;
+     line-height: 54px;
+     font-weight: 800;
+     font-family: Montserrat,sans-serif;
+ 
+ }
+ h3.home__text{
+     font-size: 50px;
+     font-weight: 800;
+     font-family: Montserrat,sans-serif;
+     line-height: 40px;
+ 
+ }
+ h3.home__text{
+     font-size: 50px;
+     font-weight: 800;
+     font-family: Montserrat,sans-serif;
+     line-height: 40px;
+ }
+ .header{
+     transition: .4s all ease;
+ }
+ .header.active{
+     position: fixed;
+     width: 100%;
+     z-index: 1000;
+     padding: 0px 30px;
+     background-color: #191919;
+ 
+ }
+.toggle__menu {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    z-index: 1000;
+    width: 100%;
+}
+ul.sidebar.d__flex {
+    flex-wrap: wrap;
+    height: 100%;
+    position: fixed;
+    right: 0%;
+    justify-content: center;
+    background: #010101;
+    width: 300px;
+    top:0%;
+    flex-direction: column;
+}
+li.sideNavbar {
+    padding: 25px 30px;
+}
+@media only screen and (min-width: 769px)
+{
+svg.bi.bi-justify.white.pointer {
+    /* width: 30px;
+    height: 30px; */
+    display: none;
+}
+}
+
+
+ @media only screen and (max-width: 768px){
+    .header{
+        justify-content: space-between;
+    }
+    .navigation.pxy__30 {
+        display: none;
+    }
+    svg.bi.bi-justify.white.pointer {
+        width: 30px;
+        height: 30px;
+    }
+ }
+ @media only screen and (max-width: 426px){
+
+ span.index-module_type__E-SaG {
+    font-size: 32px !important;
+ }
+
+}
+@media only screen and (max-width: 320px){
+
+    span.index-module_type__E-SaG {
+       font-size: 26px !important;
+    }
+   
+   }
